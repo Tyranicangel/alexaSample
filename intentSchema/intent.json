@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Actor",
+          "type": "AMAZON.Actor"
+        }
+      ],
+      "intent": "MovieOfActor"
+    },
+    {
+      "slots": [
+        {
+          "name": "Movie",
+          "type": "AMAZON.Movie"
+        }
+      ],
+      "intent": "ActorsOfMovie"
+    },
+    {
+      "slots": [
+        {
+          "name": "Data",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "Member",
+          "type": "AMAZON.Person"
+        }
+      ],
+      "intent": "Email"
+    },
+    {
+      "slots": [
+        {
+          "name": "Shop",
+          "type": "ShopList"
+        }
+      ],
+      "intent": "NearbyShop"
+    }
+  ]
+}
